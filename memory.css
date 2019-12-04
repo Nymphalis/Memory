@@ -1,0 +1,46 @@
+body
+{
+background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.gboard
+{
+    margin:30px auto;
+    position: relative;
+    background: rgba(248, 241, 138, 0.404);
+    overflow: hidden;
+    width: 800px;
+    height: 645px;
+    border: 2px solid rgba(144, 230, 6, 0.493);
+
+}
+.gtile {
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background: #fafafa3b  center center no-repeat;
+}
+
+.gtile:hover {
+    background-color:rgba(52, 247, 26, 0.568);
+}
+
+.gscore {
+    position: relative;
+    text-align:center;
+    color: blanchedalmond;
+    background: rgba(248, 241, 138, 0.062);
+}
+button
+{
+    position: relative;
+    background: rgba(248, 241, 138, 0.404);
+    color: blanchedalmond;
+    border: 2px solid rgb(61, 114, 89);
+
+}
+button:hover{
+    background-color:rgba(52, 247, 26, 0.568);
+}
